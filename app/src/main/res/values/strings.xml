@@ -23,4 +23,14 @@
     <string name="mauve">Mauve</string>
     <string name="gris">Gris</string>
     <string name="jaune">Jaune</string>
+    <string name="_3_poisson">3 poisson</string>
+    <string name="_4_fleur">4 fleur</string>
+    <string name="_2_mangue">2 mangue</string>
+    <string name="_5_oiseaux">5 oiseaux</string>
+    <string name="_6_pierres">6 pierres</string>
+    <string name="_7_feuille">7 feuille</string>
+    <string name="_8_femme">8 femme</string>
+    <string name="_1_chien">1 chien</string>
+    <string name="_9_nuages">9 nuages</string>
+    <string name="_0">0</string>
 </resources>
