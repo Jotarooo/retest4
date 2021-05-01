@@ -8,8 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Retest4">
-        <activity android:name=".other"></activity>
+        android:theme="@style/Theme.Retest4"
+        android:fullBackupContent="@xml/backup_descriptor">
+        <activity android:name=".Chiffre"/>
+        <activity android:name=".CouleurActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

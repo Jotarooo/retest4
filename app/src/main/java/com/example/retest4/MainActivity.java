@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         this.play = (Button) findViewById(R.id.button);
         play.setOnClickListener(view -> {
-            Intent autreact = new Intent (getApplicationContext(), other.class);
+            Intent autreact = new Intent (getApplicationContext(), Chiffre.class);
             startActivity(autreact);
             finish();
         });
