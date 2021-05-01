@@ -22,5 +22,12 @@ public class MainActivity extends AppCompatActivity {
             startActivity(autreact);
             finish();
         });
+
+        this.play = (Button) findViewById(R.id.button5);
+        play.setOnClickListener(view -> {
+            Intent autreact = new Intent (getApplicationContext(), CouleurActivity.class);
+            startActivity(autreact);
+            finish();
+        });
     }
 }
