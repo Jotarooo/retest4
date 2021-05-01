@@ -7,4 +7,8 @@
     <string name="te_tau_vaitinitxt">Te tau Vaitini</string>
     <string name="nombrestxt">Nombres</string>
     <string name="formestxt">Formes</string>
+    <string name="carre">Carre</string>
+    <string name="rectangleuh">Rectangle</string>
+    <string name="cercle">Cercle</string>
+    <string name="cacs">cacs</string>
 </resources>
