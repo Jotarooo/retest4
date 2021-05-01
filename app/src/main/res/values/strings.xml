@@ -11,4 +11,16 @@
     <string name="rectangleuh">Rectangle</string>
     <string name="cercle">Cercle</string>
     <string name="cacs">cacs</string>
+    <string name="Red">Button</string>
+    <string name="rouge">Rouge</string>
+    <string name="vert">Vert</string>
+    <string name="rose">Rose</string>
+    <string name="blanc">Blanc</string>
+    <string name="noir">Noir</string>
+    <string name="orange">Orange</string>
+    <string name="marron">Marron</string>
+    <string name="bleu">Bleu</string>
+    <string name="mauve">Mauve</string>
+    <string name="gris">Gris</string>
+    <string name="jaune">Jaune</string>
 </resources>
