@@ -4,4 +4,7 @@
     <string name="menu">hello</string>
     <string name="Retour">retour arriere</string>
     <string name="te_tau_vaitini">Te Tau Vaitini</string>
+    <string name="te_tau_vaitinitxt">Te tau Vaitini</string>
+    <string name="nombrestxt">Nombres</string>
+    <string name="formestxt">Formes</string>
 </resources>
