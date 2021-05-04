@@ -3,7 +3,9 @@ package com.example.retest4;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 public class formeActivity extends AppCompatActivity {
@@ -14,11 +16,20 @@ public class formeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forme);
+
+        final MediaPlayer carreSound = MediaPlayer.create(this, R.raw.carresound);
+        Button  sonCarre = (Button) this.findViewById(R.id.Carre);
+        sonCarre.setOnClickListener(v -> carreSound.start());
+
+
         this.retour = (Button) findViewById(R.id.button2);
         retour.setOnClickListener(view -> {
             Intent retourArriere = new Intent (getApplicationContext(), MainActivity.class);
             startActivity(retourArriere);
             finish();
+
+
+
         });
     }
 }

@@ -18,7 +18,7 @@
         tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/Carre"
         android:layout_width="93dp"
         android:layout_height="110dp"
         android:layout_marginStart="40dp"
@@ -29,8 +29,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/rectangle"
         android:layout_width="151dp"
         android:layout_height="75dp"
         android:layout_marginTop="79dp"
@@ -41,7 +42,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/cercle"
         android:layout_width="97dp"
         android:layout_height="93dp"
         android:background="@drawable/button_states_1"
