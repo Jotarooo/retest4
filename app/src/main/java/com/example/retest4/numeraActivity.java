@@ -9,11 +9,22 @@ import android.widget.Button;
 public class numeraActivity extends AppCompatActivity {
 
     private Button retour;
+    private Button start ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numera);
+
+        this.start = (Button) findViewById(R.id.startgame);
+        start.setOnClickListener(view -> {
+            Intent autreact = new Intent (getApplicationContext(), NumberActivity.class);
+            startActivity(autreact);
+            finish();
+        });
+
+
+
         this.retour = (Button) findViewById(R.id.button2);
         retour.setOnClickListener(view -> {
             Intent retourArriere = new Intent (getApplicationContext(), MainActivity.class);

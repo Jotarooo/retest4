@@ -33,4 +33,6 @@
     <string name="_1_chien">1 chien</string>
     <string name="_9_nuages">9 nuages</string>
     <string name="_0">0</string>
+    <string name="commencer">Commencer</string>
+    <string name="triangle">Button</string>
 </resources>
