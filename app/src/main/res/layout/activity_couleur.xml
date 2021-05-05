@@ -21,12 +21,12 @@
         android:id="@+id/textView"
         android:layout_width="91dp"
         android:layout_height="22dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="44dp"
         android:text="@string/te_tau_vaitini"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="44dp" />
 
     <Button
         android:id="@+id/button16"
@@ -50,11 +50,10 @@
         android:id="@+id/button11"
         android:layout_width="86dp"
         android:layout_height="72dp"
-        android:layout_marginStart="72dp"
         android:text="@string/rouge"
-        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="114dp" />
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="111dp" />
 
     <Button
         android:id="@+id/button21"
@@ -71,10 +70,9 @@
         android:layout_height="75dp"
         android:text="@string/vert"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="111dp" />
+        tools:layout_editor_absoluteY="112dp" />
 
     <Button
         android:id="@+id/button24"
@@ -110,7 +108,7 @@
         android:text="@string/rose"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="112dp" />
+        tools:layout_editor_absoluteY="111dp" />
 
     <Button
         android:id="@+id/button15"
@@ -129,6 +127,13 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="57dp"
         tools:layout_editor_absoluteY="312dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
