@@ -21,11 +21,11 @@ public class formeActivity extends AppCompatActivity {
         Button  sonCarre = (Button) this.findViewById(R.id.Carre);
         sonCarre.setOnClickListener(v -> carreSound.start());
 
-        final MediaPlayer rectangleSound = MediaPlayer.create(this, R.raw.bruh);
+        final MediaPlayer rectangleSound = MediaPlayer.create(this, R.raw.carresound);
         Button  sonRectangle = (Button) this.findViewById(R.id.rectangle);
         sonRectangle.setOnClickListener(v -> rectangleSound.start());
 
-        final MediaPlayer circleSound = MediaPlayer.create(this, R.raw.disappointed);
+        final MediaPlayer circleSound = MediaPlayer.create(this, R.raw.carresound);
         Button  sonCercle = (Button) this.findViewById(R.id.cercle);
         sonCercle.setOnClickListener(v -> circleSound.start());
 

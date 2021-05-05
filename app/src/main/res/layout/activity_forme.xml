@@ -58,7 +58,7 @@
         android:id="@+id/button32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/triangle"
+        android:text="triangle"
         tools:layout_editor_absoluteX="254dp"
         tools:layout_editor_absoluteY="367dp"
         tools:ignore="HardcodedText,MissingConstraints" />

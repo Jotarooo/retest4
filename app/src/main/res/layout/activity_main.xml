@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="100dp"
         android:layout_height="37dp"
-        android:text="@string/Kaoha_nui"
+        android:text="@string/kaoha_nui"
         android:textSize="20dp"
         android:textStyle="italic"
         android:textColor="@color/red"

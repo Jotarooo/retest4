@@ -24,9 +24,9 @@ public class coloriageActivity extends AppCompatActivity {
             finish();
         });
 
-        this.play = (Button) findViewById(R.id.button5);
+        this.play = (Button) findViewById(R.id.button4);
         play.setOnClickListener(view -> {
-            Intent autreact = new Intent (getApplicationContext(), CouleurActivity.class);
+            Intent autreact = new Intent (getApplicationContext(), ColoriagePoti.class);
             startActivity(autreact);
             finish();
         });

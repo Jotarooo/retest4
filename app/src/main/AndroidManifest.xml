@@ -10,6 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Retest4">
+        <activity android:name=".ColoriagePoti"></activity>
+        <activity android:name=".ColoiageMene" />
         <activity android:name=".Page_de_demarrage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
