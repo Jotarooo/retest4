@@ -29,14 +29,17 @@ public class formeActivity extends AppCompatActivity {
         Button  sonCercle = (Button) this.findViewById(R.id.cercle);
         sonCercle.setOnClickListener(v -> circleSound.start());
 
+        final MediaPlayer triangleSound = MediaPlayer.create(this, R.raw.nope);
+        Button  sonTriangle = (Button) this.findViewById(R.id.triangle);
+        sonTriangle.setOnClickListener(v -> triangleSound.start());
+
+
 
         this.retour = (Button) findViewById(R.id.button2);
         retour.setOnClickListener(view -> {
             Intent retourArriere = new Intent (getApplicationContext(), MainActivity.class);
             startActivity(retourArriere);
             finish();
-
-
 
         });
     }
