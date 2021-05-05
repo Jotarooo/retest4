@@ -7,7 +7,7 @@
     tools:context=".coloriageActivity">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="15dp"
@@ -16,6 +16,72 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="172dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="508dp"
+        android:text="piha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="172dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="296dp"
+        android:text="e manureva"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="172dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="508dp"
+        android:text="e popo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="172dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="84dp"
+        android:text="E POTI"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="172dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="84dp"
+        android:text="E MENE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="172dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="296dp"
+        android:text="E PEREO'O"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

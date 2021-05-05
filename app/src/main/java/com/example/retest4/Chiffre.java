@@ -44,6 +44,30 @@ public class Chiffre extends AppCompatActivity {
         Button sound5 = (Button) this.findViewById(R.id.button5);
         sound5.setOnClickListener(v -> button5.start());
 
+        final MediaPlayer button6 = MediaPlayer.create(this, R.raw.tahi);
+        Button sound6 = (Button) this.findViewById(R.id.button6);
+        sound6.setOnClickListener(v -> button6.start());
+
+        final MediaPlayer button7 = MediaPlayer.create(this, R.raw.eua);
+        Button sound7 = (Button) this.findViewById(R.id.button7);
+        sound7.setOnClickListener(v -> button7.start());
+
+        final MediaPlayer button8 = MediaPlayer.create(this, R.raw.etou);
+        Button sound8 = (Button) this.findViewById(R.id.button8);
+        sound8.setOnClickListener(v -> button8.start());
+
+        final MediaPlayer button9 = MediaPlayer.create(this, R.raw.eha);
+        Button sound9 = (Button) this.findViewById(R.id.button9);
+        sound9.setOnClickListener(v -> button9.start());
+
+        final MediaPlayer button10 = MediaPlayer.create(this, R.raw.eima);
+        Button sound10 = (Button) this.findViewById(R.id.button10);
+        sound10.setOnClickListener(v -> button10.start());
+
+        final MediaPlayer button0 = MediaPlayer.create(this, R.raw.eima);
+        Button sound0 = (Button) this.findViewById(R.id.button0);
+        sound0.setOnClickListener(v -> button0.start());
+
 
         this.retour = (Button) findViewById(R.id.buttonback);
         retour.setOnClickListener(view -> {
