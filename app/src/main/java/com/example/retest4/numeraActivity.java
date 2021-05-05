@@ -9,7 +9,7 @@ import android.widget.Button;
 public class numeraActivity extends AppCompatActivity {
 
     private Button retour;
-    private Button start ;
+    public Button start ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,8 +18,8 @@ public class numeraActivity extends AppCompatActivity {
 
         this.start = (Button) findViewById(R.id.startgame);
         start.setOnClickListener(view -> {
-            Intent autreact = new Intent (getApplicationContext(), NumberActivity.class);
-            startActivity(autreact);
+            Intent newact = new Intent (getApplicationContext(), NumberActivity.class);
+            startActivity(newact);
             finish();
         });
 
