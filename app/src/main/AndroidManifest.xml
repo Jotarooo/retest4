@@ -10,7 +10,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Retest4">
-        <activity android:name=".coloriageActivity"/>
+        <activity android:name=".Page_de_demarrage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".coloriageActivity" />
         <activity android:name=".numeraActivity" />
         <activity android:name=".lettreActivity" />
         <activity android:name=".formeActivity" />

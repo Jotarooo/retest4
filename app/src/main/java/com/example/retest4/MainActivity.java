@@ -43,5 +43,19 @@ public class MainActivity extends AppCompatActivity {
             startActivity(autreact);
             finish();
         });
+
+        this.play = (Button) findViewById(R.id.button3);
+        play.setOnClickListener(view -> {
+            Intent autreact = new Intent (getApplicationContext(), lettreActivity.class);
+            startActivity(autreact);
+            finish();
+        });
+
+        this.play = (Button) findViewById(R.id.button4);
+        play.setOnClickListener(view -> {
+            Intent autreact = new Intent (getApplicationContext(), coloriageActivity.class);
+            startActivity(autreact);
+            finish();
+        });
     }
 }
