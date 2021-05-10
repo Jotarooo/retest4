@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class ColoriagePoti extends AppCompatActivity {
+public class Coloriage_mene_kaaea extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_coloriage_poti);
+        setContentView(R.layout.activity_coloriage_mene_kaaea);
     }
 }

@@ -10,8 +10,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Retest4">
-        <activity android:name=".ColoriagePoti"></activity>
-        <activity android:name=".ColoiageMene" />
+        <activity android:name=".Coloriage_mene_kaaea"></activity>
+        <activity android:name=".Coloriage_mene_keekee" />
+        <activity android:name=".Coloriage_mene" />
+        <activity android:name=".Coloriage_poti_puki" />
+        <activity android:name=".Coloriage_poti" />
         <activity android:name=".Page_de_demarrage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
