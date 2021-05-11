@@ -25,6 +25,8 @@ public class NumberActivity extends AppCompatActivity {
         this.hae = findViewById(R.id.btnChiffreUn);
         hae.setOnClickListener(view -> {
             Intent autract = new Intent (getApplicationContext(), uaPotu.class);
+            final MediaPlayer papakisound = MediaPlayer.create(this,R.raw.aoe);
+            papakisound.start();
             startActivity(autract);
             finish();
         });
@@ -34,18 +36,25 @@ public class NumberActivity extends AppCompatActivity {
         ImageView  sonHae = this.findViewById(R.id.Hae);
         sonHae.setOnClickListener(t -> HaeSound.start());
 
-        final MediaPlayer faux1 = MediaPlayer.create(this, disappointed);
+        final MediaPlayer faux1 = MediaPlayer.create(this, R.raw.aoe);
         Button  sonfaux1 = this.findViewById(R.id.faussereponse2);
         sonfaux1.setOnClickListener(v -> faux1.start());
 
-        final MediaPlayer faux2 = MediaPlayer.create(this, disappointed);
+        final MediaPlayer faux2 = MediaPlayer.create(this, R.raw.aoe);
         Button  sonfaux2 = this.findViewById(R.id.faussereponse1);
         sonfaux2.setOnClickListener(v -> faux2.start());
 
 
-        final MediaPlayer faux3 = MediaPlayer.create(this, disappointed);
+        final MediaPlayer faux3 = MediaPlayer.create(this, R.raw.aoe);
         Button  sonfaux3 = this.findViewById(R.id.faussereponse3);
         sonfaux3.setOnClickListener(v -> faux3.start());
+
+
+
+
+
+
+
 
         this.quitter = findViewById(R.id.quit); //La croix permet de quitter l'activite mais pas au menu
         quitter.setOnClickListener(view -> {
@@ -53,7 +62,6 @@ public class NumberActivity extends AppCompatActivity {
             startActivity(Quitte);
             finish();
         });
-
 
         this.retour = findViewById(R.id.retour_n); //permet de revenir au menu
         retour.setOnClickListener(view -> {

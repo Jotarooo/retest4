@@ -25,15 +25,15 @@ public class MainActivity extends AppCompatActivity {
             finish();
         });
 
+        this.play = findViewById(R.id.button6);
+        play.setOnClickListener(this::numerasound);
+
         this.play = findViewById(R.id.button5);
         play.setOnClickListener(view -> {
             Intent autreact = new Intent (getApplicationContext(), CouleurActivity.class);
             startActivity(autreact);
             finish();
         });
-
-        this.play = findViewById(R.id.button6);
-        play.setOnClickListener(this::numeraclick);
 
         this.play = findViewById(R.id.button7);
         play.setOnClickListener(view -> {
@@ -58,14 +58,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private void numeraclick(View view) {
-        Intent autreact = new Intent(getApplicationContext(), numeraActivity.class);
+    private void numerasound(View view) {
+        Intent autreact = new Intent(getApplicationContext(), CouleurActivity.class);
+        final MediaPlayer tetaunumerasound = MediaPlayer.create(this, R.raw.e);
+        tetaunumerasound.start();
         startActivity(autreact);
-
-        final MediaPlayer carreSound = MediaPlayer.create(this, R.raw.disappointed);
-        this.findViewById(R.id.button6);
-        carreSound.start();
         finish();
     }
-
 }
