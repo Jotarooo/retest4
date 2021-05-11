@@ -17,24 +17,24 @@ public class formeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forme);
 
-        final MediaPlayer carreSound = MediaPlayer.create(this, R.raw.bruh);
-        Button  sonCarre = (Button) this.findViewById(R.id.Carre);
+        final MediaPlayer carreSound = MediaPlayer.create(this, R.raw.aoe);
+        Button  sonCarre = this.findViewById(R.id.Carre);
         sonCarre.setOnClickListener(v -> carreSound.start());
 
         final MediaPlayer rectangleSound = MediaPlayer.create(this, R.raw.carresound);
-        Button  sonRectangle = (Button) this.findViewById(R.id.rectangle);
+        Button  sonRectangle = this.findViewById(R.id.rectangle);
         sonRectangle.setOnClickListener(v -> rectangleSound.start());
 
-        final MediaPlayer circleSound = MediaPlayer.create(this, R.raw.nope);
-        Button  sonCercle = (Button) this.findViewById(R.id.cercle);
+        final MediaPlayer circleSound = MediaPlayer.create(this, R.raw.aoe);
+        Button  sonCercle = this.findViewById(R.id.cercle);
         sonCercle.setOnClickListener(v -> circleSound.start());
 
-        final MediaPlayer triangleSound = MediaPlayer.create(this, R.raw.nope);
-        Button  sontrianglele = (Button) this.findViewById(R.id.triangle);
+        final MediaPlayer triangleSound = MediaPlayer.create(this, R.raw.aoe);
+        Button  sontrianglele = this.findViewById(R.id.triangle);
         sontrianglele.setOnClickListener(v -> triangleSound.start());
 
 
-        this.retour = (Button) findViewById(R.id.button2);
+        this.retour = findViewById(R.id.button2);
         retour.setOnClickListener(view -> {
             Intent retourArriere = new Intent (getApplicationContext(), MainActivity.class);
             startActivity(retourArriere);
