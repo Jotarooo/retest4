@@ -87,7 +87,7 @@
         android:layout_marginBottom="136dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/hae"
+        app:srcCompat="@drawable/tahi_hae"
         android:contentDescription="@string/hae_en_marquisien" />
 
 
