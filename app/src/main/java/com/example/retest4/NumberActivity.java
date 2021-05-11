@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import static com.example.retest4.R.raw.aoe;
+import static com.example.retest4.R.raw.disappointed;
 
 public class NumberActivity extends AppCompatActivity {
 
@@ -34,16 +34,16 @@ public class NumberActivity extends AppCompatActivity {
         ImageView  sonHae = this.findViewById(R.id.Hae);
         sonHae.setOnClickListener(t -> HaeSound.start());
 
-        final MediaPlayer faux1 = MediaPlayer.create(this, aoe);
+        final MediaPlayer faux1 = MediaPlayer.create(this, disappointed);
         Button  sonfaux1 = this.findViewById(R.id.faussereponse2);
         sonfaux1.setOnClickListener(v -> faux1.start());
 
-        final MediaPlayer faux2 = MediaPlayer.create(this, aoe);
+        final MediaPlayer faux2 = MediaPlayer.create(this, disappointed);
         Button  sonfaux2 = this.findViewById(R.id.faussereponse1);
         sonfaux2.setOnClickListener(v -> faux2.start());
 
 
-        final MediaPlayer faux3 = MediaPlayer.create(this, aoe);
+        final MediaPlayer faux3 = MediaPlayer.create(this, disappointed);
         Button  sonfaux3 = this.findViewById(R.id.faussereponse3);
         sonfaux3.setOnClickListener(v -> faux3.start());
 
