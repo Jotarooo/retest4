@@ -3,7 +3,9 @@ package com.example.retest4;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,11 +33,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         this.play = findViewById(R.id.button6);
-        play.setOnClickListener(view -> {
-            Intent autreact = new Intent (getApplicationContext(), numeraActivity.class);
-            startActivity(autreact);
-            finish();
-        });
+        play.setOnClickListener(this::numeraclick);
 
         this.play = findViewById(R.id.button7);
         play.setOnClickListener(view -> {
@@ -58,4 +56,16 @@ public class MainActivity extends AppCompatActivity {
             finish();
         });
     }
+
+
+    private void numeraclick(View view) {
+        Intent autreact = new Intent(getApplicationContext(), numeraActivity.class);
+        startActivity(autreact);
+
+        final MediaPlayer carreSound = MediaPlayer.create(this, R.raw.disappointed);
+        this.findViewById(R.id.button6);
+        carreSound.start();
+        finish();
+    }
+
 }

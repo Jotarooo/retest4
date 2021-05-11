@@ -43,4 +43,13 @@
     <string name="hae_en_marquisien">hae en marquisien</string>
     <string name="te_kuea">Te Kuea</string>
     <string name="te_apoipoi">Te Apoipoi</string>
+    <string name="te_tau_numera">Te tau numera</string>
+    <string name="te_tau_reta">Te tau reta</string>
+    <string name="a_peni">a peni</string>
+    <string name="piha">piha</string>
+    <string name="e_manureva">e manureva</string>
+    <string name="e_popo">e popo</string>
+    <string name="e_poti">E POTI</string>
+    <string name="e_mene">E MENE</string>
+    <string name="e_pereo_o">E PEREO\'O</string>
 </resources>
