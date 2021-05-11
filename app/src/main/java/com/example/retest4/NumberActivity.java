@@ -5,10 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-
-import static com.example.retest4.R.raw.disappointed;
 
 public class NumberActivity extends AppCompatActivity {
 
@@ -24,13 +23,10 @@ public class NumberActivity extends AppCompatActivity {
 
         this.hae = findViewById(R.id.btnChiffreUn);
         hae.setOnClickListener(view -> {
-            Intent autract = new Intent (getApplicationContext(), uaPotu.class);
-            final MediaPlayer papakisound = MediaPlayer.create(this,R.raw.aoe);
-            papakisound.start();
-            startActivity(autract);
+            Intent autreact = new Intent (getApplicationContext(), uaPotu.class);
+            startActivity(autreact);
             finish();
         });
-
 
         final MediaPlayer HaeSound = MediaPlayer.create(this, R.raw.carresound);  //jouer le son "tahi h'ae quand on clique sur l'image
         ImageView  sonHae = this.findViewById(R.id.Hae);
@@ -50,13 +46,7 @@ public class NumberActivity extends AppCompatActivity {
         sonfaux3.setOnClickListener(v -> faux3.start());
 
 
-
-
-
-
-
-
-        this.quitter = findViewById(R.id.quit); //La croix permet de quitter l'activite mais pas au menu
+        this.quitter = findViewById(R.id.quit_n); //La croix permet de quitter l'activite mais pas au menu
         quitter.setOnClickListener(view -> {
             Intent Quitte = new Intent (getApplicationContext(), numeraActivity.class);
             startActivity(Quitte);
@@ -72,6 +62,7 @@ public class NumberActivity extends AppCompatActivity {
 
 
 
-
     }
+
+
 }

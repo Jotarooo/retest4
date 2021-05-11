@@ -11,13 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Retest4">
 
-        <activity android:name=".Coloriage_poti_pukiki_tokatoka_ereere"/>
+        <activity android:name=".Coloriage_poti_pukiki_tokatoka_ereere" />
         <activity android:name=".Coloriage_poti_toka" />
         <activity android:name=".Coloriage_mene_keekee_kaaea" />
         <activity android:name=".Coloriage_mene_keekee" />
         <activity android:name=".Coloriage_mene" />
         <activity android:name=".Coloriage_poti_puki" />
         <activity android:name=".Coloriage_poti" />
+        <activity android:name=".uaPotu"/>
+        <activity android:name=".tou_meika"/>
 
         <activity android:name=".Page_de_demarrage">
             <intent-filter>
@@ -33,8 +35,9 @@
         <activity android:name=".formeActivity" />
         <activity android:name=".Chiffre" />
         <activity android:name=".CouleurActivity" />
-        <activity android:name=".NumberActivity"/>
-        <activity android:name=".uaPotu"/>
+        <activity android:name=".NumberActivity" />
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,7 +45,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

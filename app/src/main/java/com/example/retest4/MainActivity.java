@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void numerasound(View view) {
-        Intent autreact = new Intent(getApplicationContext(), CouleurActivity.class);
+        Intent autreact = new Intent(getApplicationContext(), numeraActivity.class);
         final MediaPlayer tetaunumerasound = MediaPlayer.create(this, R.raw.e);
         tetaunumerasound.start();
         startActivity(autreact);
