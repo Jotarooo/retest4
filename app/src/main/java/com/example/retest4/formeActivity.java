@@ -17,7 +17,7 @@ public class formeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forme);
 
-        final MediaPlayer carreSound = MediaPlayer.create(this, R.raw.carresound);
+        final MediaPlayer carreSound = MediaPlayer.create(this, R.raw.bruh);
         Button  sonCarre = (Button) this.findViewById(R.id.Carre);
         sonCarre.setOnClickListener(v -> carreSound.start());
 
@@ -25,14 +25,13 @@ public class formeActivity extends AppCompatActivity {
         Button  sonRectangle = (Button) this.findViewById(R.id.rectangle);
         sonRectangle.setOnClickListener(v -> rectangleSound.start());
 
-        final MediaPlayer circleSound = MediaPlayer.create(this, R.raw.carresound);
+        final MediaPlayer circleSound = MediaPlayer.create(this, R.raw.nope);
         Button  sonCercle = (Button) this.findViewById(R.id.cercle);
         sonCercle.setOnClickListener(v -> circleSound.start());
 
-        final MediaPlayer triangleSound = MediaPlayer.create(this, R.raw.carresound);
-        Button  sonTriangle = (Button) this.findViewById(R.id.triangle);
-        sonTriangle.setOnClickListener(v -> triangleSound.start());
-
+        final MediaPlayer triangleSound = MediaPlayer.create(this, R.raw.nope);
+        Button  sontrianglele = (Button) this.findViewById(R.id.triangle);
+        sontrianglele.setOnClickListener(v -> triangleSound.start());
 
 
         this.retour = (Button) findViewById(R.id.button2);
@@ -40,6 +39,8 @@ public class formeActivity extends AppCompatActivity {
             Intent retourArriere = new Intent (getApplicationContext(), MainActivity.class);
             startActivity(retourArriere);
             finish();
+
+
 
         });
     }

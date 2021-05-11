@@ -55,12 +55,16 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button32"
+        android:id="@+id/triangle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginBottom="316dp"
         android:text="triangle"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="367dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText,MissingConstraints" />
 
 
