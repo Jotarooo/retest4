@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Coloriage_mene extends AppCompatActivity {
 
@@ -23,9 +24,12 @@ public class Coloriage_mene extends AppCompatActivity {
             startActivity(autreact);
             finish();
         });
+        final MediaPlayer buttoneaha = MediaPlayer.create(this, R.raw.keekee);
+        ImageButton soundeaha = (ImageButton) this.findViewById(R.id.buttonmene);
+        soundeaha.setOnClickListener(v -> buttoneaha.start());
 
         final MediaPlayer buttonone = MediaPlayer.create(this, R.raw.aoe);
-        Button soundone = (Button) this.findViewById(R.id.buttonkeemenetoka);
+        Button soundone = (Button) this.findViewById(R.id.buttonkeemeneroi);
         soundone.setOnClickListener(v -> buttonone.start());
 
         final MediaPlayer buttontwo = MediaPlayer.create(this, R.raw.aoe);

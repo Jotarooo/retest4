@@ -4,43 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Coloriage_mene">
+    tools:context=".Coloriage_poti_toka">
 
     <Button
-        android:id="@+id/buttonkeemeneroi"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginStart="180dp"
-        android:layout_marginTop="56dp"
-        android:text="roi"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/buttonkeemeneereere"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginStart="300dp"
-        android:layout_marginTop="56dp"
-        android:text="ereere"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/buttonkeemenetoka"
+        android:id="@+id/buttonpotitokakopumeika"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginStart="428dp"
         android:layout_marginTop="56dp"
-        android:text="tokatoka"
+        android:text="kopumeika"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,HardcodedText" />
 
     <Button
-        android:id="@+id/buttonbackmene"
+        android:id="@+id/buttonpotitokapuatou"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="56dp"
+        android:text="puatou"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonpotitokatavaie"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="56dp"
+        android:text="tavaie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonpotitokaereere"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="56dp"
+        android:text="ereere"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/imagebuttonpotitoka"
+        android:layout_width="442dp"
+        android:layout_height="426dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bateaujaunerouge"
+        tools:ignore="MissingConstraints,HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonbackpotitoka"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="15dp"
@@ -49,27 +71,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="HardcodedText,MissingConstraints" />
-
-    <Button
-        android:id="@+id/buttonkeemenekee"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="56dp"
-        android:text="keekee"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/buttonmene"
-        android:layout_width="442dp"
-        android:layout_height="426dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="264dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mene"
-        tools:ignore="MissingConstraints,HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

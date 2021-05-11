@@ -34,10 +34,17 @@ public class Coloriage_poti_puki extends AppCompatActivity {
         Button soundnina = (Button) this.findViewById(R.id.button38);
         soundnina.setOnClickListener(v -> buttontok.start());
 
-                this.retour = (Button) findViewById(R.id.buttonback4);
+        this.retour = (Button) findViewById(R.id.buttonback4);
         retour.setOnClickListener(view -> {
             Intent retourArriere = new Intent (getApplicationContext(), coloriageActivity.class);
             startActivity(retourArriere);
+            finish();
+        });
+
+        this.play = (Button) findViewById(R.id.button36);
+        play.setOnClickListener(view -> {
+            Intent autreact = new Intent (getApplicationContext(), Coloriage_poti_toka.class);
+            startActivity(autreact);
             finish();
         });
     }
