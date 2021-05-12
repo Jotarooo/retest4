@@ -1,8 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".tou_meika">
+
+
+    <Button
+        android:id="@+id/faussereponse6"
+        android:layout_width="149dp"
+        android:layout_height="148dp"
+        android:text="@string/sixfaux"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <Button
+        android:id="@+id/faussereponse4"
+        android:layout_width="149dp"
+        android:layout_height="148dp"
+        android:text="@string/_9"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="451dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <Button
+        android:id="@+id/btnjuste2"
+        android:layout_width="149dp"
+        android:layout_height="148dp"
+        android:text="@string/_3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <Button
+        android:id="@+id/faussereponse5"
+        android:layout_width="149dp"
+        android:layout_height="148dp"
+        android:text="@string/_8"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <ImageView
+        android:id="@+id/potuimage"
+        android:layout_width="318dp"
+        android:layout_height="341dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="136dp"
+        android:contentDescription="@string/potu_en_marquisien"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/meika" />
+
+    <Button
+        android:id="@+id/retour_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="418dp"
+        android:layout_marginTop="898dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/Retour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/quit_p"
+        android:layout_width="46dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/x"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="faussereponse4,faussereponse6,btnjuste2,faussereponse5" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

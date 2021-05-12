@@ -8,49 +8,39 @@
 
     <Button
         android:id="@+id/btnChiffreUn"
-        android:layout_width="124dp"
+        android:layout_width="149dp"
         android:layout_height="148dp"
-        android:layout_marginStart="168dp"
-        android:layout_marginTop="128dp"
         android:text="@string/_1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="128dp" />
 
     <Button
         android:id="@+id/faussereponse2"
-        android:layout_width="124dp"
+        android:layout_width="149dp"
         android:layout_height="148dp"
-        android:layout_marginStart="305dp"
-        android:layout_marginTop="128dp"
-        android:layout_marginEnd="172dp"
         android:text="@string/_7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="127dp" />
 
     <Button
         android:id="@+id/faussereponse3"
-        android:layout_width="124dp"
+        android:layout_width="149dp"
         android:layout_height="148dp"
-        android:layout_marginTop="128dp"
-        android:layout_marginEnd="32dp"
         android:text="@string/_4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="451dp"
+        tools:layout_editor_absoluteY="127dp" />
 
     <Button
         android:id="@+id/faussereponse1"
-        android:layout_width="124dp"
+        android:layout_width="149dp"
         android:layout_height="148dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="128dp"
-        android:text="@string/_2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        android:text="@string/_3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="127dp" />
 
     <Button
         android:id="@+id/retour_n"
@@ -85,10 +75,10 @@
         android:layout_height="341dp"
         android:layout_marginEnd="128dp"
         android:layout_marginBottom="136dp"
+        android:contentDescription="@string/hae_en_marquisien"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/tahi_hae"
-        android:contentDescription="@string/hae_en_marquisien" />
+        app:srcCompat="@drawable/tahi_hae" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

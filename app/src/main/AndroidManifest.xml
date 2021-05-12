@@ -20,7 +20,6 @@
         <activity android:name=".Coloriage_poti" />
         <activity android:name=".uaPotu"/>
         <activity android:name=".tou_meika"/>
-
         <activity android:name=".Page_de_demarrage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

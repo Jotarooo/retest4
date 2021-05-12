@@ -20,7 +20,7 @@ public class uaPotu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ua_potu);
 
-        this.potubutt = findViewById(R.id.btnjuste);
+        this.potubutt = findViewById(R.id.btnjuste9);
         potubutt.setOnClickListener(view -> {
             Intent autract = new Intent(getApplicationContext(), tou_meika.class);
             final MediaPlayer papakisound = MediaPlayer.create(this, R.raw.e);
